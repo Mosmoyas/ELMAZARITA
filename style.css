@@ -231,24 +231,32 @@ position: relative;
 /* ///////////erklarung///////////////// */
 .erklarung{
     margin-top: 20px;
-    width: 70%;
+    width: 100%;
     border-top: 1px solid #e4dede;
     border-radius: 6px;
-    padding: 20px;
+    padding: 20px;    text-align: center;
+    display: flex;
+    justify-content: space-between;
 
+
+}
+
+.erklarung .haupt{
+    padding: 25px;
 }
 .erklarung .heads{
     margin-bottom: 15px;
 
 }
-.erklarung .heads h2{
+
+.erklarung .heads h3{
     margin-bottom: 15px;
 }
  .erklarung .zeil{
     margin-top:20px;
  }
 
- .erklarung .zeil h2{ margin-bottom: 15px;}
+ .erklarung .zeil h3{ margin-bottom: 15px;}
  .erklarung .zeil p{
     line-height: 1.3;
     color: #8e8d8d;
@@ -259,7 +267,31 @@ position: relative;
     margin-bottom: 15px;
     display: block; }
 
+    .erklarung .neben{
+        padding: 50px;
+        position: relative;
+        right: 20px;
+        text-align: left;
+    }
 
+    .erklarung .neben span{
+        margin: 20px;
+        display: block;
+        padding: 15px;
+        font-weight: 550;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.872);
+        border-radius: 6px;
+        transition: .5s;
+        border: none;
+    }
+
+    .erklarung .neben span:hover{
+        background-color: rgb(208, 206, 206);
+        color: rgb(46, 45, 45);
+    }
+
+/* ////////////////////////////////////// */
 .product-cards h2{
     margin: 30px 0;
 }
