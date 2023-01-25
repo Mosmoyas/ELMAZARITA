@@ -105,7 +105,12 @@ a {
     justify-content: space-between;
     padding: 50px;
 }
+.products .display{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
 
+}
 .products .display img{
     max-width: 350px;
 }
@@ -163,7 +168,7 @@ position: relative;
         width: 100%;
         left: 0;
         top: 0;
-        background-color:rgba(203, 197, 197, 0.263) ;
+        background-color:rgba(112, 110, 110, 0.483) ;
         transition: .5s;
 }
 .imgcon:hover::before{
