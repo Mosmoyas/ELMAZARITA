@@ -32,7 +32,6 @@ a {
     margin-right: auto;
 }
 .header {
-    /* position: relative; */
     background:url(images/eRoller-7377198-1200x1200-3.jpg);
     background-size: cover;  
     
@@ -105,12 +104,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    /* border: 1px solid #e4dede; */
-
 }
-
-
-
 
 .products .display img{
     max-width: 350px;
@@ -148,6 +142,47 @@ color: black;}
     font-size: 17px;
     font-weight: bold;}
 
+    /* GALLARY/////// */
+.gallary{
+    padding: 20px;
+
+} .behalter{
+    display: flex;justify-content: center;
+    gap: 10px;
+}
+.imgcon{
+    max-width: 200px;
+    border: 1px solid #Eee;
+position: relative;
+
+}
+
+    .imgcon::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color:rgba(203, 197, 197, 0.263) ;
+        transition: .5s;
+}
+.imgcon:hover::before{
+    background-color: rgba(0, 0, 0, 0.057);
+    /* padding: 0; */
+    transform: scale(1.05);
+
+    
+    }
+
+    .behalter img{
+        width: 100%;
+        height: 100%;
+    
+    }
+
+
+    
 /* /////////////////Beschreibung/// */
 
 .beschreibung{
