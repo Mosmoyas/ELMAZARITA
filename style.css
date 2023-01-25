@@ -32,10 +32,10 @@ a {
     margin-right: auto;
 }
 .header {
-    background:url(images/eRoller-7377198-1200x1200-3.jpg);
+    background:url(images/roller-mesnchen.jpg);
     background-size: cover;  
     
-    background-position: center;  height: 500px;
+    background-position: bottom;  height: 600px;
 }
 
 .header .container{
